@@ -1,4 +1,17 @@
-dist
-node_modules
-.env.local
-.DS_Store
+# Ignore Python virtual environment directories
+venv/
+.env/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore BentoML build artifacts
+bentoml/
+
+# Ignore other common files
+*.log
+*.sqlite3
