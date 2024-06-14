@@ -5,10 +5,10 @@ function setTheme(themeName) {
 }
 
 function showMenu(menuName) {
-  document.getElementById('deployment-menu').style.display = 'block';
+    document.getElementById('deployment-menu').style.display = 'block';
 }
 
 function deploy(option) {
-  alert('Deploying: ' + option);
-  // Implement deployment logic here
+    alert('Deploying: ' + option);
+    // Implement deployment logic here
 }
