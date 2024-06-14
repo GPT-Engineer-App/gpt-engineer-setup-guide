@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# Update package list and install pip
-sudo apt update
-sudo apt install -y python3-pip
-
-# Install required Python packages
-pip3 install -r requirements.txt

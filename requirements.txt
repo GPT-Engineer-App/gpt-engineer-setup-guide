@@ -1,7 +1,0 @@
-torch
-transformers
-flask
-pandas
-numpy
-bentoml
-langchain
