@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT Engineer Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+    <header>
+        <nav>
+            <ul>
+                <li><button onclick="setTheme('dark-mode')">Dark Mode</button></li>
+                <li><button onclick="setTheme('blue-mode')">Blue Mode</button></li>
+                <li><button onclick="setTheme('yellow-mode')">Yellow Mode</button></li>
+                <li><button onclick="showMenu('deployment')">Deployment</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to GPT Engineer Dashboard</h1>
+        <div id="tiledesk-container"></div>
+        <div id="deployment-menu" style="display:none;">
+            <h2>Deployment Options</h2>
+            <ul>
+                <li><button onclick="deploy('api')">API</button></li>
+                <li><button onclick="deploy('sdk')">SDK</button></li>
+                <li><button onclick="deploy('plugin')">Plugin</button></li>
+                <li><button onclick="deploy('file')">File</button></li>
+                <li><button onclick="deploy('download')">Download</button></li>
+                <li><button onclick="deploy('ios')">iOS</button></li>
+                <li><button onclick="deploy('android')">Android</button></li>
+                <li><button onclick="deploy('third-party')">Third-Party</button></li>
+            </ul>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
